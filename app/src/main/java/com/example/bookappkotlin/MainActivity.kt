@@ -1,5 +1,6 @@
 package com.example.bookappkotlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.bookappkotlin.databinding.ActivityMainBinding
@@ -16,12 +17,13 @@ class MainActivity : AppCompatActivity() {
 
         // handle click, login
         binding.loginBtn.setOnClickListener {
-
+            startActivity(Intent(this, LoginActivity::class.java))
         }
 
         // handle click, skip and continue to main screen
         binding.skipBtn.setOnClickListener {
-
+            // will do later
+            startActivity(Intent(this, DashboardUserActivity::class.java))
         }
     }
 }
