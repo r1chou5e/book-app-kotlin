@@ -52,6 +52,7 @@ class LoginActivity : AppCompatActivity() {
             // 4. Check user type - Firebase Auth
             //  If User -> User Dashboard
             //  If Admin -> Admin Dashboard
+            validateData()
         }
     }
 
