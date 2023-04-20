@@ -28,6 +28,11 @@ class DashboardAdminActivity : AppCompatActivity() {
             firebaseAuth.signOut()
             checkUser()
         }
+
+        // handle click, start add category page
+        binding.addCategoryBtn.setOnClickListener {
+            startActivity(Intent(this, CategoryAddActivity::class.java))
+        }
     }
 
     private fun checkUser() {
