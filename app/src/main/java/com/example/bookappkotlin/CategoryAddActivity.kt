@@ -13,7 +13,7 @@ import com.google.firebase.database.FirebaseDatabase
 class CategoryAddActivity : AppCompatActivity() {
 
     // view binding
-    private lateinit var binding:ActivityCategoryAddBinding
+    private lateinit var binding: ActivityCategoryAddBinding
 
     // firebase auth
     private lateinit var firebaseAuth: FirebaseAuth

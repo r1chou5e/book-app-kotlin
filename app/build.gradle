@@ -36,7 +36,6 @@ android {
     // enable view binding (optional, you may use findviewbuild)
     buildFeatures {
         viewBinding true
-
     }
 }
 
